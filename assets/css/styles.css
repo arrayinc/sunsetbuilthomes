@@ -232,3 +232,11 @@ ul.nav.navbar-nav.navbar-right {
     background: #fff;
     padding: 0 50px;
 }
+
+.model_info {
+  display: block;
+}
+
+.model_base_info {
+  display: inline-block;
+}
