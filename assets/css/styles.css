@@ -131,6 +131,10 @@ img#balloon.img-responsive {
     height: 100px;
     width: auto;
     margin-left: 10px;
+    animation-name: balloonFloat;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
 }
 
 .hovereffect {
@@ -231,4 +235,16 @@ ul.nav.navbar-nav.navbar-right {
 .hr_titles_text {
     background: #fff;
     padding: 0 50px;
+}
+
+
+/* ANIMATION */
+
+@keyframes balloonFloat {
+    0% {
+        transform: translateY(440px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
