@@ -187,3 +187,13 @@ ul.nav.navbar-nav.navbar-right {
   margin-right:20px;
 }
 
+.hr_titles {
+  margin: 50px 40px;
+  border-bottom: 1px solid #000;
+  line-height: .1em;
+}
+
+.hr_titles_text {
+  background: #fff;
+  padding: 0 50px;
+}

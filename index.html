@@ -41,7 +41,7 @@
                 <div class="item"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
             </div>
             <div class="hidden"><a class="left carousel-control" href="#carousel-1" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-1" role="button"
-                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                    data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
         </div>
     </div>
     <!-- carousel end --><img src="assets/img/sunsetlogo.png" id="sunsetlogo">
@@ -53,7 +53,7 @@
     </div>
     <!-- Begin Model Section -->
     <div id="modelsdiv">
-        <h1 class="text-center" id="modelshead">Models </h1>
+        <h1 class="text-center hr_titles" id="modelshead"><span class="hr_titles_text">Models</span></h1>
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="hovereffect"><img class="img-rounded img-responsive" src="assets/img/placeHolder.png">
@@ -100,7 +100,7 @@
     <!-- End Model Section -->
     <!-- Begin Finishes Section -->
     <div id="finishesdiv">
-        <h1 class="text-center" id="finisheshead">Finishes </h1>
+        <h1 class="text-center hr_titles" id="finisheshead"><span class="hr_titles_text">Finishes</span></h1>
         <div class="row" id="finishesrow">
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
                 <div class="hovereffect"><img class="img-rounded img-responsive" src="assets/img/squareplaceholder.png">
@@ -150,23 +150,28 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                     <h4 class="text-center modal-title">Contact </h4></div>
                 <div class="modal-body">
-                    <div class="form-area">
-    <form>
-        <div class="form-group">
-            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
-        </div>
-        <div class="form-group">
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required />
-        </div>
-        <div class="form-group">
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone Number" required />
-        </div>
-    </form>
-</div>
+                    <div class="typeform-widget" data-url="https://sunsethomes.typeform.com/to/OzwTgI" data-text="Contact Form" style="width:100%;height:500px;"></div>
+                    <script>
+                        (function() {
+                            var qs, js, q, s, d = document,
+                                gi = d.getElementById,
+                                ce = d.createElement,
+                                gt = d.getElementsByTagName,
+                                id = 'typef_orm',
+                                b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                            if (!gi.call(d, id)) {
+                                js = ce.call(d, 'script');
+                                js.id = id;
+                                js.src = b + 'widget.js';
+                                q = gt.call(d, 'script')[0];
+                                q.parentNode.insertBefore(js, q)
+                            }
+                        })()
+                    </script>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer hidden">
                     <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-                    <button class="btn btn-primary" type="button">Send </button>
+                    <button class="btn btn-primary" type="button" id="contact_send">Send</button>
                 </div>
             </div>
         </div>
@@ -185,7 +190,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-2" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-2" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -208,7 +213,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-3" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-3" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -231,7 +236,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-4" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-4" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -254,7 +259,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-5" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-5" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -277,7 +282,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-6" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-6" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -300,7 +305,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-7" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-7" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -323,7 +328,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-8" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-8" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -346,7 +351,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-9" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-9" role="button"
-                            data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -369,7 +374,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-10" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-10"
-                            role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -392,7 +397,7 @@
                             <div class="item active"><img src="assets/img/placeHolder.png" alt="Slide Image"></div>
                         </div>
                         <div class="hidden"><a class="left carousel-control" href="#carousel-11" role="button" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-11"
-                            role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
+                                role="button" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Next</span></a></div>
                     </div>
                 </div>
                 <div class="modal-footer">
