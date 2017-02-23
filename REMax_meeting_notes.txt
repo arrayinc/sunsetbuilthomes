@@ -1,0 +1,4 @@
+- 12-13 photos per home
+- front of house, floorplan, foyer, living room, kitchen, bedrooms, master, master bed, basement
+- no Meet Team section
+- link to current inventory (Homes available now)
