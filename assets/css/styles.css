@@ -125,6 +125,7 @@ img#balloon.img-responsive {
 }
 
 .hovereffect img {
+  border-radius: 0;
   display:block;
   position:relative;
 }
