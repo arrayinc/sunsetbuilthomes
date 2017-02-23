@@ -233,10 +233,21 @@ ul.nav.navbar-nav.navbar-right {
     padding: 0 50px;
 }
 
-.model_info {
-  display: block;
-}
-
 .model_base_info {
   display: inline-block;
+  text-align: center;
+  width: 24%;
+  padding: 20px 0 20px 0;
+}
+
+.model_bonus {
+  min-height: 120px;
+}
+
+.model_bonus_info {
+  display: block;
+  text-align: center;
+  width: 50%;
+  float: left;
+  padding: 0 0 10px 0;
 }
