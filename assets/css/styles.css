@@ -31,21 +31,15 @@ img#sunsetlogoTop {
 }
 
 #bottom_logo_container {
-    position: absolute;
-    height: auto;
-    width: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    transform: translateY(-370%);
 }
 
 img#sunsetlogoBottom {
     width: 50%;
     margin: auto;
-    display: block;
-    position: relative;
-    top: -100%;
-    left: 50%;
-    transform: translate(-100%, -370%);
-    top: 0;
-    z-index: 1;
 }
 
 p#para.text-center {
@@ -55,6 +49,7 @@ p#para.text-center {
 }
 
 div#centerdiv {
+    transform: translateY(-100px);
     padding: 0 30px;
 }
 
@@ -266,6 +261,7 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 .hr_titles_text {
+    text-transform: uppercase;
     background: #fff;
     padding: 0 50px;
 }
