@@ -273,3 +273,16 @@ ul.nav.navbar-nav.navbar-right {
         transform: translateY(0);
     }
 }
+
+a {
+  color: white;
+  }
+a:visited {
+  color: white;
+  }
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
