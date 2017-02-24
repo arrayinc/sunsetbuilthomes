@@ -29,10 +29,6 @@ div#carouseldiv {
     margin-top: 51px;
 }
 
-#carousel-1 {
-  background-size: cover;
-}
-
 img#sunsetlogoTop {
     width: 50%;
     margin: auto;
@@ -70,6 +66,7 @@ p#para.text-center {
 
 div#centerdiv {
     padding: 0 30px;
+    /*margin-top: -50px;*/
 }
 
 button.btn.btn-primary.btn-lg {
@@ -311,6 +308,25 @@ ul.nav.navbar-nav.navbar-right {
 .hr_titles_text {
     background: #fff;
     padding: 0 50px;
+}
+
+#currentInventory {
+  background-color: #fff;
+  color: #285F90;
+  border: 1px solid #285F90;
+  margin: 0 50%;
+  transform: translateX(-50%);
+  padding: 10px 40px;
+  transition: .5s;
+}
+
+#currentInventory:hover  {
+  background-color: #eee;
+}
+
+#currentInventory a {
+  color: #285F90;
+  margin: 0 auto;
 }
 
 .modal_titles {
