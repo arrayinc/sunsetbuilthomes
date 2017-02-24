@@ -285,19 +285,31 @@ ul.nav.navbar-nav.navbar-right {
   color: #fff;
 }
 
-.model_bonus {
-  min-height: 150px;
-  max-height: 300px;
-
+.model_bonus_container {
+  height: auto;
+  width: auto;
+  overflow: hidden;
   background-color: #373748;
+}
+
+.model_bonus {
+  width: 50%;
+  padding-bottom: 10px;
+
+}
+
+.model_bonus_column_left {
+  float: left;
+}
+
+.model_bonus_column_right {
+  float: right;
 }
 
 .model_bonus_info {
   margin-top:   20px;
   display: block;
   text-align: center;
-  width: 50%;
-  float: left;
   padding: 0 0 10px 0;
   color: #fff;
   /*background-color: red;*/
