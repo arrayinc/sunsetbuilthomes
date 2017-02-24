@@ -246,7 +246,7 @@ h2 {
 
 
 
-h4.text-center.modal-title {
+h4.text-center.modal-title-font {
     font-family: 'Roboto Slab';
     font-size: 30px;
 }
@@ -270,6 +270,17 @@ ul.nav.navbar-nav.navbar-right {
     padding: 0 50px;
 }
 
+.modal_titles{
+  margin: 20px 50px;
+  border-bottom: 1px solid #000;
+  line-height: .1em;
+}
+
+.modal_titles_text {
+  width: 50%;
+  background: #fff;
+  padding: 0 50px;
+}
 
 .model_base{
   margin-bottom: 0;
