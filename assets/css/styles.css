@@ -338,9 +338,10 @@ ul.nav.navbar-nav.navbar-right {
   background-color: #fff;
   color: #285F90;
   border: 1px solid #285F90;
-  margin: 0 50%;
+  padding: 10px 42px;
+  position: relative;
+  left: 50%;
   transform: translateX(-50%);
-  padding: 10px 40px;
   transition: .5s;
 }
 
