@@ -157,7 +157,7 @@ img#balloon.img-responsive {
     animation-name: balloonFloat;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 
 .hovereffect {
@@ -325,7 +325,7 @@ padding-right: 15px;
 
 @keyframes balloonFloat {
     0% {
-        transform: translateY(440px);
+        transform: translateY(80px);
     }
     100% {
         transform: translateY(0);
