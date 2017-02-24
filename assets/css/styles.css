@@ -19,6 +19,10 @@ div#carouseldiv {
     margin-top: 51px;
 }
 
+#carousel-1 {
+  background-size: cover;
+}
+
 img#sunsetlogoTop {
     width: 50%;
     margin: auto;
@@ -353,13 +357,16 @@ ul.nav.navbar-nav.navbar-right {
   }
 
   .modal_titles_text {
-    margin: none;
+    margin: 0 auto;
+    padding: 10px;
   }
 
   .model_base_info {
-    padding-left: -30px;
     text-align: center;
-    margin: 0 20px 0 -20px;
+    margin: -10px 20px -10px -20px;
+    position: relative;
+    top: 50%;
+    vertical-align: middle;
   }
 
   .model_bonus_info {
