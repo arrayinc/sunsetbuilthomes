@@ -322,7 +322,7 @@ ul.nav.navbar-nav.navbar-right {
 .model_base_info {
   display: inline-block;
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 900;
   text-align: center;
   width: 24%;
   padding: 20px 0 20px 0;
@@ -340,6 +340,33 @@ ul.nav.navbar-nav.navbar-right {
   width: 50%;
   padding-bottom: 10px;
 
+}
+
+.model_bonus_info {
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+
+  .modal_titles {
+    border: none;
+  }
+
+  .modal_titles_text {
+    margin: none;
+  }
+
+  .model_base_info {
+    padding-left: -30px;
+    text-align: center;
+    margin: 0 20px 0 -20px;
+  }
+
+  .model_bonus_info {
+    padding-left: -30px;
+    text-align: center;
+    margin: 0 8px 0 -20px;
+  }
 }
 
 .model_bonus_column_left {
