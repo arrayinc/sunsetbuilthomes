@@ -221,8 +221,11 @@ h2 {
     font-family: 'Roboto';
 }
 
+
+
 h4.text-center.modal-title {
     font-family: 'Roboto Slab';
+    font-size: 30px;
 }
 
 button.btn.btn-default {
@@ -244,23 +247,37 @@ ul.nav.navbar-nav.navbar-right {
     padding: 0 50px;
 }
 
+.model_base{
+  margin-bottom: 0;
+  background-color: #4B4B5A;
+}
+
 .model_base_info {
   display: inline-block;
+  font-family: 'Roboto';
+  font-weight: bold;
   text-align: center;
   width: 24%;
   padding: 20px 0 20px 0;
+  color: #fff;
 }
 
 .model_bonus {
-  min-height: 120px;
+  min-height: 150px;
+  max-height: 300px;
+
+  background-color: #373748;
 }
 
 .model_bonus_info {
+  margin-top:   20px;
   display: block;
   text-align: center;
   width: 50%;
   float: left;
   padding: 0 0 10px 0;
+  color: #fff;
+  /*background-color: red;*/
 }
 
 /* ANIMATION */
