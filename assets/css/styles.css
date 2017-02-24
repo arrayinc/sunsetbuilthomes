@@ -205,14 +205,26 @@ img#whitelogo.img-responsive {
     width: 15%;
 }
 
+.navbar-brand {
+  padding-top: 0;
+}
+
+#balloonRise {
+  animation-name: balloonFloat;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 3s;
+}
+
 img#balloon.img-responsive {
     height: 100px;
     width: auto;
     margin-left: 10px;
-    animation-name: balloonFloat;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 5s;
+    animation-name: balloonBob;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-direction: alternate;
 }
 
 .hovereffect {
@@ -436,11 +448,22 @@ ul.nav.navbar-nav.navbar-right {
 
 @keyframes balloonFloat {
     0% {
-        transform: translateY(440px);
+        transform: translateY(60px);
+        /*opacity: 0;*/
     }
     100% {
         transform: translateY(0);
+        /*opacity: 75%;*/
     }
+}
+
+@keyframes balloonBob {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 
 a {
