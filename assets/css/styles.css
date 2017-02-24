@@ -19,10 +19,33 @@ div#carouseldiv {
     margin-top: 51px;
 }
 
-img#sunsetlogo {
+img#sunsetlogoTop {
     width: 50%;
     margin: auto;
     display: block;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    z-index: 1;
+}
+
+#bottom_logo_container {
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+
+img#sunsetlogoBottom {
+    width: 50%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -100%;
+    left: 50%;
+    transform: translate(-100%, -370%);
+    top: 0;
+    z-index: 1;
 }
 
 p#para.text-center {
