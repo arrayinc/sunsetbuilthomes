@@ -19,10 +19,33 @@ div#carouseldiv {
     margin-top: 51px;
 }
 
-img#sunsetlogo {
+img#sunsetlogoTop {
     width: 50%;
     margin: auto;
     display: block;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    z-index: 1;
+}
+
+#bottom_logo_container {
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+
+img#sunsetlogoBottom {
+    width: 50%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -100%;
+    left: 50%;
+    transform: translate(-100%, -370%);
+    top: 0;
+    z-index: 1;
 }
 
 p#para.text-center {
@@ -274,22 +297,39 @@ ul.nav.navbar-nav.navbar-right {
   color: #fff;
 }
 
-.model_bonus {
-  min-height: 150px;
-  max-height: 300px;
-
+.model_bonus_container {
+  height: auto;
+  width: auto;
+  overflow: hidden;
   background-color: #373748;
+}
+
+.model_bonus {
+  width: 50%;
+  padding-bottom: 10px;
+
+}
+
+.model_bonus_column_left {
+  float: left;
+}
+
+.model_bonus_column_right {
+  float: right;
 }
 
 .model_bonus_info {
   margin-top:   20px;
   display: block;
   text-align: center;
-  width: 50%;
-  float: left;
   padding: 0 0 10px 0;
   color: #fff;
   /*background-color: red;*/
+}
+
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+padding-right: 15px;
 }
 
 /* ANIMATION */
