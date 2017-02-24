@@ -270,6 +270,7 @@ ul.nav.navbar-nav.navbar-right {
     padding: 0 50px;
 }
 
+
 .model_base{
   margin-bottom: 0;
   background-color: #4B4B5A;
@@ -301,6 +302,11 @@ ul.nav.navbar-nav.navbar-right {
   padding: 0 0 10px 0;
   color: #fff;
   /*background-color: red;*/
+}
+
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+padding-right: 15px;
 }
 
 /* ANIMATION */

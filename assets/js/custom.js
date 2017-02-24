@@ -53,7 +53,7 @@ $("#livingroomlink").click(function(){
 
 // Click to scroll
 
-$('a[href*="#"]:not([href="#"])').click(function() {
+function carouselClick() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -64,4 +64,6 @@ $('a[href*="#"]:not([href="#"])').click(function() {
       return false;
     }
   }
-});
+}
+
+$('a[href*="#"]:not([href="#"],[href="#carousel-2"],[href="#carousel-3"],[href="#carousel-4"],[href="#carousel-5"],[href="#carousel-6"],[href="#carousel-7"],[href="#carousel-8"],[href="#carousel-9"],[href="#carousel-10"],[href="#carousel-11"])').click(carouselClick);
