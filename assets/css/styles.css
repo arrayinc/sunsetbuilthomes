@@ -80,35 +80,67 @@ div#finishesrow.row {
     margin-bottom: 30px;
 }
 
-div#footerdiv {
-    height: 240px;
+#footerdiv {
+    display: inline-block;
+    margin: 0 auto;
+    min-height: 240px;
     width: 100%;
     background-color: #334B5C;
     padding: 15px 20px;
+    text-align: center;
 }
 
 #footerHeading {
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 #sunsetFooter {
+    transform: translateY(80%);
     position: relative;
-    display: inline-block;
-    margin-left: 50px;
-    bottom: 75px;
+    top: 32%;
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    #sunsetFooter {
+        display: none;
+    }
 }
 
 #footerText {
     position: relative;
-    display: inline-block;
-    margin: 0 200px;
+    display: block;
+    left: 60%;
+    transform: translateX(-140%);
+}
+
+@media (max-width: 990px) {
+    #footerText {
+        transform: translateX(-110%);
+    }
+}
+
+@media (max-width: 768px) {
+    #footerText {
+        transform: translateX(-70%);
+    }
 }
 
 #remaxFooter {
+    transform: translateY(80%);
     position: relative;
-    display: inline-block;
-    margin-right: 0 50px;
-    bottom: 75px;
+    top: 32%;
+    display: block;
+    float: right;
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    #remaxFooter {
+        display: none;
+    }
 }
 
 #footerdiv p.text-center {
