@@ -87,12 +87,13 @@ div#modelsdiv {
 }
 
 div#finishesdiv {
-    padding: 0 30px;
+    padding: 0 20px;
     margin-bottom: 50px;
 }
 
 div.col-lg-6.col-md-6.col-sm-6.col-xs-12 {
-    margin: 15px 0;
+    margin: 5px 0;
+    padding: 0 5px;
 }
 
 div#finishesrow.row {
@@ -237,6 +238,9 @@ img#balloon.img-responsive {
     position: relative;
     text-align: center;
     cursor: pointer;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .hovereffect .overlay {
@@ -247,13 +251,10 @@ img#balloon.img-responsive {
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(75, 75, 75, 0.7);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
 }
 
-.hovereffect:hover .overlay {
-    background-color: rgba(255, 233, 155, 0.4);
+.hovereffect:hover .overlay{
+  /**/
 }
 
 .hovereffect img {
@@ -282,13 +283,11 @@ img#balloon.img-responsive {
 }
 
 .finishesItems{
-  margin-bottom: 10px;
+  margin: 5px;
 }
 
-.hovereffect:hover h2 {
-    /*-webkit-transform:translateY(5px);
-  -ms-transform:translateY(5px);
-  transform:translateY(5px);*/
+.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+  padding: 0 5px;
 }
 
 a#contactnav {
