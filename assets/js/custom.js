@@ -13,7 +13,7 @@ $(document).ready(function() {
   });
 
   $("#galvestonlink").click(function(){
-      $("#galvestonmodal").modal("show");
+      modalClick("#galvestonmodal", "modalModelGalveston.html");
   });
 
   $("#lakewoodlink").click(function(){
@@ -61,6 +61,17 @@ $(document).ready(function() {
 });
 
 // Click to scroll
+function modalClick(modalId, modalFile) {
+  $.ajax({
+    url: modalFile,
+    dataType: 'text',
+    success: function(data) {
+      //alert(data);
+      $(modalId + " .modal-content").html(data);
+      $(modalId).modal("show");
+    }
+  });
+}
 
 function carouselClick() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
