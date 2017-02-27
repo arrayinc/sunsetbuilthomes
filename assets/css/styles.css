@@ -228,6 +228,7 @@ img#balloon.img-responsive {
     animation-timing-function: ease-in-out;
     animation-duration: 3s;
     animation-direction: alternate;
+    z-index: 999;
 }
 
 .hovereffect {
