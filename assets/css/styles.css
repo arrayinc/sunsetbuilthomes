@@ -243,25 +243,13 @@ img#balloon.img-responsive {
     transition: all 0.4s ease-in-out;
 }
 
-.hovereffect .overlay {
-    border-radius: 0px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
 
 .hovereffect img {
     border-radius: 0;
     display: block;
     position: relative;
-    -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    -webkit-transition: all 0.5s cubic-bezier(0.88,-0.99, 0, .85);
+    transition: all 0.5s cubic-bezier(0.88,-0.99, 0, .85);
 }
 
 .hovereffect h2 {
@@ -279,14 +267,14 @@ img#balloon.img-responsive {
     -webkit-transform: translateY(10px);
     -ms-transform: translateY(10px);
     transform: translateY(10px);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .hovereffect:hover img {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hovereffect:hover .overlay {
