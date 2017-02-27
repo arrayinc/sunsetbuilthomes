@@ -1,3 +1,7 @@
+body {
+  -ms-overflow-style: none;
+}
+
 li a {
     text-align: center;
 }
