@@ -27,6 +27,7 @@ li a {
 
 div#carouseldiv {
     margin-top: 51px;
+    margin-bottom: 0;
 }
 
 #carousel-1 {
@@ -63,7 +64,7 @@ p#para.text-center {
 }
 
 div#centerdiv {
-    transform: translateY(-100px);
+    margin-top: -100px;
     padding: 0 30px;
 }
 
@@ -129,11 +130,17 @@ div#finishesrow.row {
     #footerText {
         transform: translateX(-110%);
     }
+    div#centerdiv {
+        margin-top: -100px;
+    }
 }
 
 @media (max-width: 768px) {
     #footerText {
         transform: translateX(-70%);
+    }
+    div#centerdiv {
+        margin-top: -25px;
     }
 }
 
@@ -237,7 +244,7 @@ img#balloon.img-responsive {
 .hovereffect h2 {
     height: 40px;
     width: 100%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #fff;
     text-align: center;
     position: absolute;
@@ -251,6 +258,10 @@ img#balloon.img-responsive {
     transform: translateY(10px);
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
+}
+
+.finishesItems{
+  margin-bottom: 10px;
 }
 
 .hovereffect:hover h2 {
