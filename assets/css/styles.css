@@ -358,6 +358,7 @@ ul.nav.navbar-nav.navbar-right {
 #currentInventory a {
   color: #285F90;
   margin: 0 auto;
+  text-decoration: none;
 }
 
 .modal_titles {
