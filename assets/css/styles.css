@@ -1,5 +1,6 @@
 body {
   -ms-overflow-style: none;
+  overflow: auto;
 }
 
 li a {
