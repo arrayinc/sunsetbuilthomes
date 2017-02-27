@@ -453,10 +453,6 @@ ul.nav.navbar-nav.navbar-right {
     /*background-color: red;*/
 }
 
-.modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
-    padding-right: 15px;
-}
-
 #contactusnow a {
   text-decoration: none;
 }
