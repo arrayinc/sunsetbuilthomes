@@ -1,6 +1,6 @@
-body {
-  -ms-overflow-style: none;
-  overflow: auto;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 li a {
