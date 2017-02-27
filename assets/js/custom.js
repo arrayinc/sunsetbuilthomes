@@ -13,43 +13,43 @@ $(document).ready(function() {
   });
 
   $("#galvestonlink").click(function(){
-      modalClick("#galvestonmodal", "modalModelGalveston.html");
+      modalClick("#galvestonmodal", "assets/modals/modalModelGalveston.html");
   });
 
   $("#lakewoodlink").click(function(){
-    modalClick("#lakewoodmodal", "modalModelLakewood.html");
+    modalClick("#lakewoodmodal", "assets/modals/modalModelLakewood.html");
   });
 
   $("#crestwoodlink").click(function(){
-    modalClick("#crestwoodmodal", "modalModelCrestwood.html");
+    modalClick("#crestwoodmodal", "assets/modals/modalModelCrestwood.html");
   });
 
   $("#riversidelink").click(function(){
-    modalClick("#riversidemodal", "modalModelRiverside.html");
+    modalClick("#riversidemodal", "assets/modals/modalModelRiverside.html");
   });
 
   $("#firesidelink").click(function(){
-    modalClick("#firesidemodal", "modalModelFireside.html");
+    modalClick("#firesidemodal", "assets/modals/modalModelFireside.html");
   });
 
   $("#saratogalink").click(function(){
-    modalClick("#saratogamodal", "modalModelSaratoga.html");
+    modalClick("#saratogamodal", "assets/modals/modalModelSaratoga.html");
   });
 
   $("#kitchenlink").click(function(){
-    modalClick("#kitchenmodal", "modalFinishKitchen.html");
+    modalClick("#kitchenmodal", "assets/modals/modalFinishKitchen.html");
   });
 
   $("#bedroomlink").click(function(){
-    modalClick("#bedroommodal", "modalFinishBed.html");
+    modalClick("#bedroommodal", "assets/modals/modalFinishBed.html");
   });
 
   $("#bathroomlink").click(function(){
-    modalClick("#bathroommodal", "modalFinishBath.html");
+    modalClick("#bathroommodal", "assets/modals/modalFinishBath.html");
   });
 
   $("#livingroomlink").click(function(){
-    modalClick("#livingroommodal", "modalFinishLiving.html");
+    modalClick("#livingroommodal", "assets/modals/modalFinishLiving.html");
   });
 
   $('a[href*="#"]:not([href="#"],[href="#carousel-2"],[href="#carousel-3"],[href="#carousel-4"],[href="#carousel-5"],[href="#carousel-6"],[href="#carousel-7"],[href="#carousel-8"],[href="#carousel-9"],[href="#carousel-10"],[href="#carousel-11"])').click(carouselClick);
