@@ -54,10 +54,10 @@ $(document).ready(function() {
 
   $('a[href*="#"]:not([href="#"],[href="#carousel-2"],[href="#carousel-3"],[href="#carousel-4"],[href="#carousel-5"],[href="#carousel-6"],[href="#carousel-7"],[href="#carousel-8"],[href="#carousel-9"],[href="#carousel-10"],[href="#carousel-11"])').click(carouselClick);
 
-  $('#balloon').one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
-    console.log('Animation complete');
-    $('#balloon').effect("bounce", { times:10 }, 10000);
-  });
+  // $('#balloon').one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(e) {
+  //   console.log('Animation complete');
+  //   $('#balloon').effect("bounce", { times:10 }, 10000);
+  // });
 });
 
 // Click to scroll

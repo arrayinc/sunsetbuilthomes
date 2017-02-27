@@ -30,10 +30,6 @@ div#carouseldiv {
     margin-bottom: 0;
 }
 
-#carousel-1 {
-  background-size: cover;
-}
-
 img#sunsetlogoTop {
     width: 50%;
     margin: auto;
@@ -66,6 +62,19 @@ p#para.text-center {
 div#centerdiv {
     margin-top: -100px;
     padding: 0 30px;
+    margin-top: -100px;
+}
+
+@media (max-width: 964px) {
+  div#centerdiv {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 768px) {
+  div#centerdiv {
+    margin-top: -25px;
+  }
 }
 
 button.btn.btn-primary.btn-lg {
@@ -198,14 +207,26 @@ img#whitelogo.img-responsive {
     width: 15%;
 }
 
+.navbar-brand {
+  padding-top: 0;
+}
+
+#balloonRise {
+  animation-name: balloonFloat;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 3s;
+}
+
 img#balloon.img-responsive {
     height: 100px;
     width: auto;
     margin-left: 10px;
-    animation-name: balloonFloat;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-out;
-    animation-duration: 5s;
+    animation-name: balloonBob;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-direction: alternate;
 }
 
 .hovereffect {
@@ -320,6 +341,26 @@ ul.nav.navbar-nav.navbar-right {
     padding: 0 50px;
 }
 
+#currentInventory {
+  background-color: #fff;
+  color: #285F90;
+  border: 1px solid #285F90;
+  padding: 10px 42px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s;
+}
+
+#currentInventory:hover  {
+  background-color: #eee;
+}
+
+#currentInventory a {
+  color: #285F90;
+  margin: 0 auto;
+}
+
 .modal_titles {
     margin: 20px 50px;
     border-bottom: 1px solid #000;
@@ -415,11 +456,22 @@ ul.nav.navbar-nav.navbar-right {
 
 @keyframes balloonFloat {
     0% {
-        transform: translateY(440px);
+        transform: translateY(60px);
+        /*opacity: 0;*/
     }
     100% {
         transform: translateY(0);
+        /*opacity: 75%;*/
     }
+}
+
+@keyframes balloonBob {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }
 
 a {
