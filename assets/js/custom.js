@@ -13,43 +13,43 @@ $(document).ready(function() {
   });
 
   $("#galvestonlink").click(function(){
-      $("#galvestonmodal").modal("show");
+      modalClick("#galvestonmodal", "modalModelGalveston.html");
   });
 
   $("#lakewoodlink").click(function(){
-      $("#lakewoodmodal").modal("show");
+    modalClick("#lakewoodmodal", "modalModelLakewood.html");
   });
 
   $("#crestwoodlink").click(function(){
-      $("#crestwoodmodal").modal("show");
+    modalClick("#crestwoodmodal", "modalModelCrestwood.html");
   });
 
   $("#riversidelink").click(function(){
-      $("#riversidemodal").modal("show");
+    modalClick("#riversidemodal", "modalModelRiverside.html");
   });
 
   $("#firesidelink").click(function(){
-      $("#firesidemodal").modal("show");
+    modalClick("#firesidemodal", "modalModelFireside.html");
   });
 
   $("#saratogalink").click(function(){
-      $("#saratogamodal").modal("show");
+    modalClick("#saratogamodal", "modalModelSaratoga.html");
   });
 
   $("#kitchenlink").click(function(){
-      $("#kitchenmodal").modal("show");
+    modalClick("#kitchenmodal", "modalFinishKitchen.html");
   });
 
   $("#bedroomlink").click(function(){
-      $("#bedroommodal").modal("show");
+    modalClick("#bedroommodal", "modalFinishBed.html");
   });
 
   $("#bathroomlink").click(function(){
-      $("#bathroommodal").modal("show");
+    modalClick("#bathroommodal", "modalFinishBath.html");
   });
 
   $("#livingroomlink").click(function(){
-      $("#livingroommodal").modal("show");
+    modalClick("#livingroommodal", "modalFinishLiving.html");
   });
 
   $('a[href*="#"]:not([href="#"],[href="#carousel-2"],[href="#carousel-3"],[href="#carousel-4"],[href="#carousel-5"],[href="#carousel-6"],[href="#carousel-7"],[href="#carousel-8"],[href="#carousel-9"],[href="#carousel-10"],[href="#carousel-11"])').click(carouselClick);
@@ -61,6 +61,17 @@ $(document).ready(function() {
 });
 
 // Click to scroll
+function modalClick(modalId, modalFile) {
+  $.ajax({
+    url: modalFile,
+    dataType: 'text',
+    success: function(data) {
+      //alert(data);
+      $(modalId + " .modal-content").html(data);
+      $(modalId).modal("show");
+    }
+  });
+}
 
 function carouselClick() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
