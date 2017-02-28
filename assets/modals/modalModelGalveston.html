@@ -51,3 +51,15 @@
   <div class="modal-footer">
       <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
   </div>
+
+
+  <script>
+  $(document).ready(function() {
+     $("#carousel-2").swiperight(function() {
+        $("#carousel-2").carousel('prev');
+      });
+     $("#carousel-2").swipeleft(function() {
+        $("#carousel-2").carousel('next');  
+     });
+  });
+  </script>
