@@ -498,3 +498,7 @@ a:hover {
 a:active {
     color: white;
 }
+
+#past_builds {
+  color: #888;
+}
